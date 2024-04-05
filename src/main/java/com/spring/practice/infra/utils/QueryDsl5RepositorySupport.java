@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.function.Function;
 
 @Repository
-public class QueryDsl5RepositorySupport {
+public abstract class QueryDsl5RepositorySupport {
 
 	private final Class domainClass;
 	private Querydsl querydsl;

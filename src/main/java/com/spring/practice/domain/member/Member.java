@@ -23,4 +23,9 @@ public class Member {
 	@Enumerated(EnumType.STRING)
 	@Column(length = RoleType.COLUMN_SIZE)
 	private RoleType roleType;
+
+	public Member(String name, RoleType roleType) {
+		this.name = name;
+		this.roleType = roleType;
+	}
 }
